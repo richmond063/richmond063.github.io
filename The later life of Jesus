@@ -1,0 +1,37 @@
+html_content = """
+<html>
+<head>
+    <title>Richmond web</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial;
+            text-align: center;
+            padding: 40px;
+        }
+        h1 {
+            color: darkblue;
+        }
+        p {
+            font-size: 18px;
+            width: 80%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Richmond web</h1>
+    <p>
+    The later life of Jesus focused on His ministry, teachings,
+    miracles, crucifixion, and resurrection. He preached love,
+    forgiveness, repentance, and the Kingdom of God.
+    Christians believe He rose from the dead on the third day.
+    </p>
+</body>
+</html>
+"""
+
+with open("richmond_web.html", "w") as file:
+    file.write(html_content)
+
+print("Website created successfully!")
